@@ -6,7 +6,7 @@ header:
   image: "/images/highSierraTrail.jpg"
 
 {% include base_path %}
-{% include group-by-array collections=site.posts fields="tags" %}
+{% include group-by-array collection=site.posts field="tags" %}
 
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
