@@ -1,9 +1,13 @@
 # main links
 main:
-  - title: "About"
+  - title: "CV"
     url: /about
   - title: "Machine Learning"
     url: /machine-learning/
+  - title: "Books"
+    url: /books/
+  - title: "Projects"
+    url: /projects/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
