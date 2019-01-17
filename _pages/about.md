@@ -5,4 +5,4 @@ header:
   image: "/images/hamiltonLake.jpg"
 ---
 
-I'm a senior computer scientist with a background in Computer and Network Security and a passion for applying Machine Learning techniques and developing Deep Learning models to identify malicious network activity. 
+I'm a senior computer scientist investigating the potential of applying Deep Learning models to the problems of computer and network security. Although my skillset which developed over many years as a government analyst would likely classify me as a data scientist.
