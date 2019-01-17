@@ -2,8 +2,12 @@
 main:
   - title: "CV"
     url: /about
+  - title: "Deep Learning"
+    url: /deep-learning/
   - title: "Machine Learning"
     url: /machine-learning/
+  - title: "Courses"
+    url: /courses/
   - title: "Books"
     url: /books/
   - title: "Projects"
