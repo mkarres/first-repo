@@ -1,6 +1,6 @@
 ---
 title: "My Sample Book Post"
-layout: collection
+#layout: collection
 collection: books
 permalink: /books/
 date: 2019-01-17
