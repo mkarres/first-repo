@@ -9,7 +9,7 @@ header:
 Here are my notes and exercises from fun workbooks 
 
 {% include base_path %}
-{% assign base_path = base_path | append: permalink %}
+{% assign base_path = base_path | append: /books/ %}
 {% include group-by-array collection=site.books field="tags" %}
 
 #{% for tag in group_names %}
