@@ -1,10 +1,8 @@
 ---
 title: "Notebooks"
-layout: posts
+layout: archive
 permalink: /books/
-#taxonomy: books
 author_profile: true
-#entries_layout: list  # or grid
 header:
   image: "/images/highSierraTrail.jpg"
 ---
