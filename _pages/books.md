@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: archive
 permalink: /books/
 title: "Notebooks"
 author_profile: true
