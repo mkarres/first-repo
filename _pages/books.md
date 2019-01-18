@@ -1,10 +1,10 @@
 ---
 title: "Notebooks"
-layout: category
+layout: posts
 permalink: /books/
-taxonomy: books
+#taxonomy: books
 author_profile: true
-entries_layout: list  # or grid
+#entries_layout: list  # or grid
 header:
   image: "/images/highSierraTrail.jpg"
 ---
@@ -20,7 +20,7 @@ Here are my notes and exercises from fun workbooks
       {% capture written_label %}{{ label }}{% endcapture %}
     {% endif %}
   {% endunless %}
-  {% for post in collection.docs %}
+  {% for post in collection.books %}
     {% unless collection.output == false or collection.label == "posts" %}
       {% include archive-single.html %}
     {% endunless %}
