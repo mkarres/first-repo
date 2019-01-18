@@ -1,8 +1,10 @@
 ---
-layout: posts
-permalink: /books/
 title: "Notebooks"
+layout: category
+permalink: /categories/books/
+taxonomy: books
 author_profile: true
+entries_layout: list  # or grid
 header:
   image: "/images/highSierraTrail.jpg"
 ---
