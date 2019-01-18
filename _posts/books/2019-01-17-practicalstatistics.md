@@ -1,5 +1,5 @@
 ---
-title: "Sample Book Post"
+title: "My Sample Book Post"
 layout: collection
 collection: books
 permalink: /books/
