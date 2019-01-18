@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: archive 
 permalink: /deep-learning/
 title: "Posts"
 author_profile: true
