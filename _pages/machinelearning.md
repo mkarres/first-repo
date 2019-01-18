@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: collection
 permalink: /machine-learning/
 title: "Posts"
 author_profile: true

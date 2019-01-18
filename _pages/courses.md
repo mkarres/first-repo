@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: category
 permalink: /courses/
 title: "Posts"
 author_profile: true
