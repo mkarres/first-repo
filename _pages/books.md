@@ -1,11 +1,12 @@
 ---
-layout: archive
+layout: posts
 permalink: /books/
-title: "Posts"
+title: "Notebooks"
 author_profile: true
 header:
   image: "/images/highSierraTrail.jpg"
 ---
+Here are my notes and exercises from fun workbooks. 
 
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
