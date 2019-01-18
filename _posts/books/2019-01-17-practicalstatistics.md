@@ -1,7 +1,7 @@
 ---
 title: "My Sample Book Post"
 #layout: collection
-collection: books
+#collection: books
 permalink: /books/
 date: 2019-01-17
 tags: [data science, statistics]
