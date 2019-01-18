@@ -281,6 +281,12 @@ compress_html:
   ignore:
     envs: development
 
+collections:
+  deeplearning:
+  machinelearning:
+  courses:
+  books:
+  projects:
 
 # Defaults
 defaults:
