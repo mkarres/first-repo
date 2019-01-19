@@ -20,7 +20,7 @@ locale                   : "en-US"
 title                    : "Michael Karres"
 title_separator          : "-"
 name                     : "Michael Karres"
-description              : "Like a river that don't know where it's flowing/I took a wrong turn and I just kept going"
+description              : "Portfolio"
 url                      : "https://mkarres.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Michael Karres"
   avatar           : "/images/bio-photo.jpg"
-  bio              : "Data Science Portfolio"
+  bio              : "Like a river that don't know where it's flowing"
   location         : "San Diego, CA"
   email            :
   links:
