@@ -5,7 +5,7 @@ permalink: /projects/
 collection: projects
 author_profile: true
 header:
-  image: "/images/highSierraTrail.jpg"
+  image: "/images/joshuatree.jpg"
 ---
 
 Various projects 

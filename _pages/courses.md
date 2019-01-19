@@ -5,7 +5,7 @@ permalink: /courses/
 collection: courses
 author_profile: true
 header:
-  image: "/images/highSierraTrail.jpg"
+  image: "/images/queenstown.jpg"
 ---
 
 Notes and workbooks for online courses

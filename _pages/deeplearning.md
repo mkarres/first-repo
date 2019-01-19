@@ -5,7 +5,7 @@ permalink: /deep-learning/
 collection: deeplearning
 author_profile: true
 header:
-  image: "/images/highSierraTrail.jpg"
+  image: "/images/halfdome.jpg"
 ---
 
 Notes about Deep Learning

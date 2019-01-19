@@ -5,7 +5,7 @@ permalink: /machine-learning/
 collection: machinelearning
 author_profile: true
 header:
-  image: "/images/highSierraTrail.jpg"
+  image: "/images/disneySea.jpg"
 ---
 
 Notes about Machine Learning
