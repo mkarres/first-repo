@@ -5,4 +5,4 @@ header:
   image: "/images/highSierraTrail.jpg"
 ---
 
-A senior computer/data scientist applying deep learning models to the domain of computer and network security
+Senior computer/data scientist applying deep learning models to the domain of computer and network security
