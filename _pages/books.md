@@ -8,12 +8,12 @@ header:
   image: "/images/highSierraTrail.jpg"
 ---
 
-{% capture written_label %}'None'{% endcapture %}
+Reviews and worksheets for books that I've read
 
 {% for collection in site.collections %}
  {% if collection.label == 'books' %}
   {% for post in collection.docs %}
-    {% unless collection.output == false or collection.label == "posts" %}
+    {% unless collection.output == false %}
       {% include archive-single.html %}
     {% endunless %}
   {% endfor %}
