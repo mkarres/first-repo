@@ -9,8 +9,9 @@ header:
 
 {% capture written_label %}'None'{% endcapture %}
 
-{% if collection.label == "books" %}
-  {% unless collection.output == false %}
+{% for collection in site.collections %}
+ {% if collection.label == 'books' %}
+  {% unless collection.output == false or collection.label == "posts" %}
     {% capture label %}{{ collection.label }}{% endcapture %}
     {% if label != written_label %}
       <h2 id="{{ label | slugify }}" class="archive__subtitle">{{ label }}</h2>
@@ -22,6 +23,6 @@ header:
       {% include archive-single.html %}
     {% endunless %}
   {% endfor %}
-{% endif %}
-
+ {% endif %}
+{% endfor %}
 
