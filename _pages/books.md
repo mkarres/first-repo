@@ -9,7 +9,7 @@ header:
 
 {% capture written_label %}'None'{% endcapture %}
 
-{% if collection.label = "books" %}
+{% if collection.label == "books" %}
   {% unless collection.output == false %}
     {% capture label %}{{ collection.label }}{% endcapture %}
     {% if label != written_label %}
