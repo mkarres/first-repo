@@ -2,6 +2,7 @@
 title: "Books"
 layout: archive
 permalink: /books/
+collection: books
 author_profile: true
 header:
   image: "/images/highSierraTrail.jpg"
