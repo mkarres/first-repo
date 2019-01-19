@@ -8,7 +8,7 @@ header:
   image: "/images/highSierraTrail.jpg"
 ---
 
-Reviews and worksheets for books that I've read
+Reviews and notebooks for books
 
 {% for collection in site.collections %}
  {% if collection.label == 'books' %}

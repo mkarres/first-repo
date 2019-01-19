@@ -1,19 +1,22 @@
 ---
+title: "Deep Learning"
 layout: archive 
 permalink: /deep-learning/
-title: "Posts"
+collection: deeplearning
 author_profile: true
 header:
   image: "/images/highSierraTrail.jpg"
 ---
 
-{% include base_path %}
-{% include group-by-array collection=site.posts field="tags" %}
+Notes about Deep Learning
 
-{% for tag in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
-  {% for post in posts %}
-    {% include archive-single.html %}
+{% for collection in site.collections %}
+ {% if collection.label == 'deeplearning' %}
+  {% for post in collection.docs %}
+    {% unless collection.output == false %}
+      {% include archive-single.html %}
+    {% endunless %}
   {% endfor %}
+ {% endif %}
 {% endfor %}
+

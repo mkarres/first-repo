@@ -1,19 +1,22 @@
 ---
+title: "Projects"
 layout: archive
 permalink: /projects/
-title: "Projects"
+collection: projects
 author_profile: true
 header:
   image: "/images/highSierraTrail.jpg"
 ---
 
-{% include base_path %}
-{% include group-by-array collection=site.posts field="tags" %}
+Various projects 
 
-{% for tag in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
-  {% for post in posts %}
-    {% include archive-single.html %}
+{% for collection in site.collections %}
+ {% if collection.label == 'projects' %}
+  {% for post in collection.docs %}
+    {% unless collection.output == false %}
+      {% include archive-single.html %}
+    {% endunless %}
   {% endfor %}
+ {% endif %}
 {% endfor %}
+

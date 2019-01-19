@@ -1,9 +1,22 @@
 ---
+title: "Courses"
 layout: archive
 permalink: /courses/
-title: "Posts"
+collection: courses
 author_profile: true
 header:
   image: "/images/highSierraTrail.jpg"
 ---
+
+Notes and workbooks for online courses
+
+{% for collection in site.collections %}
+ {% if collection.label == 'courses' %}
+  {% for post in collection.docs %}
+    {% unless collection.output == false %}
+      {% include archive-single.html %}
+    {% endunless %}
+  {% endfor %}
+ {% endif %}
+{% endfor %}
 
